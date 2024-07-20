@@ -72,6 +72,7 @@ Ensure you have Python installed. You can download it from [python.org](https://
 <!-- ROADMAP -->
 ## Roadmap
 
+- [x] Added yolov8 & depth-estimation v2
 - [x] Support Pose and Depth Estimation
 - [ ] Support Windows & Mac, now only Linux
 - [ ] Easily add other Hugging Face models
