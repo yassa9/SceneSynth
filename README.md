@@ -79,7 +79,7 @@ Ensure you have Python installed. You can download it from [python.org](https://
 - [ ] Support Video models
 
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/yassa9/SceneSynth/issues) for a full list of proposed features.
 
 <p align="right">(<a href="#readme-top">Back Top</a>)</p>
 
