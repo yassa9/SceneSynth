@@ -6,7 +6,7 @@
     <img src="images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center" style="font-size: 48px;">SceneSynth</h1>
+  <h1 align="center" style="font-size: 60px;">SceneSynth</h1>
 
   <p align="center">
     Blazing GUI for easily viewing and interacting with computer vision models.
