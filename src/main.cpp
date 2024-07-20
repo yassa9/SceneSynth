@@ -379,6 +379,7 @@ int main(int, char **)
     int my_image_width = 0, my_image_height = 0; // Variables to hold image dimensions
 
     static int radioModelJob = 0;
+    static bool textCopied = false;
 
     Py_Initialize();
     // Main loop
@@ -498,6 +499,7 @@ int main(int, char **)
             ImGui::Spacing();
             if (ImGui::Button("Run"))
             {
+                textCopied = false;
                 switch (radioModelJob)
                 {
                     case 0:
@@ -685,9 +687,16 @@ int main(int, char **)
             ImGuiWindowFlags child_window_flags = ImGuiWindowFlags_None;
             ImGui::PushStyleVar(ImGuiStyleVar_ChildRounding, 5.0f);
 
-            if (ImGui::Button("Copy"))
-            {
+            // Create a copy button
+            if (ImGui::Button("Copy")) {
                 ImGui::SetClipboardText(outputExecution.c_str());
+                textCopied = true;  // Set the flag to true when the text is copied
+            }
+
+            // Display "copied to clipboard!" message if the text was copied
+            if (textCopied) {
+                ImGui::SameLine();  // Display the message on the same line as the button
+                ImGui::Text("Copied to clipboard!");
             }
 
             ImGui::BeginChild("ChildR", ImVec2(0, 0.55*(allLayoutHeight - centralImgWindowHeight)), ImGuiChildFlags_Border, child_window_flags);
