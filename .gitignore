@@ -1,0 +1,6 @@
+# Ignore libtorch directory
+/libtorch/
+
+# Ignore all .pt files
+*.pt/libtorch/
+
