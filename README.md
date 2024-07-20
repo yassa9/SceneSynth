@@ -22,6 +22,8 @@
 
 SceneSynth is a software based on [imgui](https://github.com/ocornut/imgui) C++ library, where it takes new computer vision models along with interacting and utilizing in easiest way by a super fast gui.  
 
+It's all about deploying models, and avoid much post-processing code.
+
 You just choose your target image, choose which job you want to execute from detection, classification or segmentation, to pose and depth estimation, then simply press run, and you got your output with all necessary information, avoiding much python copy & paste lines of code.
 
 <p align="right">(<a href="#readme-top">Back Top</a>)</p>
