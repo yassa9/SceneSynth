@@ -2,5 +2,5 @@
 /libtorch/
 
 # Ignore all .pt files
-*.pt/libtorch/
+*.pt
 
