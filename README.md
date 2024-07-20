@@ -15,10 +15,10 @@
   </p>
 </div>
 
+[![GIF shot][product-screenshot]](https://github.com/yassa9/SceneSynth)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![GIF shot][product-screenshot]](https://github.com/yassa9/SceneSynth)
 
 SceneSynth is a software based on [imgui](https://github.com/ocornut/imgui) C++ library, where it takes new computer vision models along with interacting and utilizing in easiest way by a super fast gui.  
 
