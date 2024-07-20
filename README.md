@@ -33,6 +33,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![ImGui][imgui]][imgui-url]
 * [![C++][cpp]][cpp-url]
 * [![C][c]][c-url]
+* [![Cmake][cmake]][cmake-url]
 * [![Python][python]][python-url]
 * [![openCV][opencv]][opencv-url]
 * [![Libtorch][libtorch]][libtorch-url]
@@ -109,6 +110,8 @@ See the [open issues](https://github.com/yassa9/SceneSynth/issues) for a full li
 [cpp-url]: https://isocpp.org/
 [c]: https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white
 [c-url]: https://en.wikipedia.org/wiki/C_(programming_language)
+[cmake]: https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white
+[cmake-url]: https://cmake.org/
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [python-url]: https://www.python.org/
 [opencv]: https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white
