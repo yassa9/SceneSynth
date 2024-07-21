@@ -3,4 +3,4 @@
 
 # Ignore all .pt files
 *.pt
-
+py_assets/*.pt

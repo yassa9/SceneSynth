@@ -1,3 +1,3 @@
 
-image 1/1 /home/yassa/Pictures/car.jpg: 480x640 1 car, 1 truck, 77.3ms
-Speed: 1.5ms preprocess, 77.3ms inference, 77.9ms postprocess per image at shape (1, 3, 480, 640)
+image 1/1 /home/yassa/Pictures/yolo_examples/4.jpg: 544x640 2 persons, 2 sports balls, 88.4ms
+Speed: 2.5ms preprocess, 88.4ms inference, 2.5ms postprocess per image at shape (1, 3, 544, 640)
