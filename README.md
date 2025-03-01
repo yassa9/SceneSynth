@@ -30,8 +30,6 @@ You just choose your target image, choose which job you want to execute from det
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [![ImGui][imgui]][imgui-url]
 * [![C++][cpp]][cpp-url]
 * [![C][c]][c-url]
